@@ -1,0 +1,99 @@
+{
+  "method": "FedAvg",
+  "class_weighting": "moderate_inverse_frequency",
+  "rounds": [
+    {
+      "round": 1,
+      "weighted_local_loss": 1.6939422324206417,
+      "heldout_test_accuracy": 0.6157316594743036
+    },
+    {
+      "round": 2,
+      "weighted_local_loss": 1.4999743777596841,
+      "heldout_test_accuracy": 0.5802275402118477
+    },
+    {
+      "round": 3,
+      "weighted_local_loss": 1.2585073052765343,
+      "heldout_test_accuracy": 0.5723813260102001
+    },
+    {
+      "round": 4,
+      "weighted_local_loss": 1.0938713785102605,
+      "heldout_test_accuracy": 0.6123970184386034
+    },
+    {
+      "round": 5,
+      "weighted_local_loss": 0.9875225693796184,
+      "heldout_test_accuracy": 0.6355433503334641
+    },
+    {
+      "round": 6,
+      "weighted_local_loss": 0.8838008717518386,
+      "heldout_test_accuracy": 0.6514319340918007
+    },
+    {
+      "round": 7,
+      "weighted_local_loss": 0.8183987717104357,
+      "heldout_test_accuracy": 0.6800706159278148
+    },
+    {
+      "round": 8,
+      "weighted_local_loss": 0.7651584129933197,
+      "heldout_test_accuracy": 0.6567281286779129
+    },
+    {
+      "round": 9,
+      "weighted_local_loss": 0.7231427216115315,
+      "heldout_test_accuracy": 0.6684974499803845
+    },
+    {
+      "round": 10,
+      "weighted_local_loss": 0.6815480115894713,
+      "heldout_test_accuracy": 0.6849744998038446
+    }
+  ],
+  "best_round": 10,
+  "best_test_accuracy": 0.6849744998038446,
+  "final_test_accuracy": 0.6849744998038446,
+  "train_users": [
+    18,
+    10,
+    35,
+    1,
+    5,
+    30,
+    16,
+    20,
+    6,
+    12,
+    2,
+    25,
+    3,
+    34,
+    4,
+    33,
+    24,
+    28,
+    11,
+    23,
+    19,
+    26,
+    7,
+    21,
+    8,
+    15,
+    29
+  ],
+  "test_users": [
+    36,
+    14,
+    27,
+    31,
+    17,
+    32,
+    22,
+    13,
+    9
+  ]
+}
